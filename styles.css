@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.information {
+    display: flex;
+}
+
+.container {
+    font-family: "EB Garamond", serif;
+    margin: 3rem;
+}
+
+#info {
+    font-size: 1.5rem;
+    border-top: 2px solid rgba(160, 160, 160, 0.637);
+    border-bottom: 2px solid rgba(160, 160, 160, 0.637);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bar {
+    margin-top: 2.1rem;
+    margin-left: 5rem;
+    width: 200%;
+    background-color: rgb(37, 36, 36);
+}
+
+.detail {
+    padding: 10px;
+}
+
+.damage {
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+}
+.range {
+    width: 50%;
+    background-color: white;
+}
+.firerate {
+    width: 80%;
+    background-color: white;
+}
+.reload {
+    width: 27%;
+    background-color: white;
+}
+.accuracy {
+    width: 48%;
+    background-color: white;
+}
