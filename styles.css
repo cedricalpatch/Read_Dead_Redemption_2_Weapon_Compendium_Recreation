@@ -12,10 +12,15 @@ body {
     margin: 3rem;
 }
 
-#info {
-    font-size: 1.5rem;
+#border {
+    display: flex;
     border-top: 2px solid rgba(160, 160, 160, 0.637);
     border-bottom: 2px solid rgba(160, 160, 160, 0.637);
+}
+
+#info {
+    font-size: 1.5rem;
+    width: 30rem;
 }
 
 * {
@@ -34,22 +39,44 @@ body {
 }
 
 .damage {
-    width: 47%;
     background-color: rgb(255, 255, 255);
 }
 .range {
-    width: 50%;
     background-color: white;
 }
 .firerate {
-    width: 80%;
     background-color: white;
 }
 .reload {
-    width: 27%;
     background-color: white;
 }
 .accuracy {
-    width: 48%;
     background-color: white;
+}
+
+.page1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.page2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.page2 .grid-item {
+    display: none;
+}
+.previous {
+    display: none;
+}
+.pageChanger {
+    padding-left: 50rem;
+}
+button {
+    width: 8rem;
+}
+.grid-item {
+    font-size: 30px;
+    text-align: center;
 }
