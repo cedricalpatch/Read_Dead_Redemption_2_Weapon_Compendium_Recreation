@@ -9,13 +9,14 @@ body {
 
 .container {
     font-family: "EB Garamond", serif;
-    margin: 3rem;
+    margin: 1rem;
 }
 
 #border {
     display: flex;
     border-top: 2px solid rgba(160, 160, 160, 0.637);
     border-bottom: 2px solid rgba(160, 160, 160, 0.637);
+    width: 100%;
 }
 
 #info {
@@ -36,6 +37,7 @@ body {
 
 .detail {
     padding: 10px;
+    transition: width 1s ease-in-out;
 }
 
 .damage {
@@ -79,4 +81,26 @@ button {
 .grid-item {
     font-size: 30px;
     text-align: center;
+}
+
+.next {
+    width: 12rem;
+    background-color: black;
+    height: 2.5rem;
+    border: none;
+    font-size: large;
+    color: white;
+}
+
+.previous {
+    width: 12rem;
+    background-color: black;
+    border: none;
+    font-size: large;
+    height: 2.5rem;
+    color: white;
+}
+
+.footnote {
+    text-align: right;
 }

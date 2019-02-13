@@ -199,11 +199,12 @@ var p1item = page1.querySelectorAll(".grid-item");
 var previousbtn = document.querySelector(".previous");
 
 function choose(name, image, damage, range, fire_rate, reload, accuracy) {
-    damage1.setAttribute("style", "width: " + damage + "%");
-    range1.setAttribute("style", "width: " + range + "%");
-    fire_rate1.setAttribute("style", "width: " + fire_rate + "%");
-    reload1.setAttribute("style", "width: " + reload + "%");
-    accuracy1.setAttribute("style", "width: " + accuracy + "%");
+    // damage1.setAttribute("style", "width: " + damage + "%");
+    damage1.style.width = damage + "%";
+    range1.style.width = range + "%";
+    fire_rate1.style.width = fire_rate + "%";
+    reload1.style.width = reload + "%";
+    accuracy1.style.width = accuracy + "%";
     name1.innerText = name;
     image1.setAttribute("src", image);
 }
@@ -214,6 +215,7 @@ button.addEventListener("click", function() {
     });
     page1.style.display = "none";
     previousbtn.style.display = "block";
+    button.style.display = "none";
 });
 
 previousbtn.addEventListener("click", () => {
@@ -224,6 +226,8 @@ previousbtn.addEventListener("click", () => {
         griditem.style.display = "none";
     });
     page1.style.display = "grid";
+    previousbtn.style.display = "none";
+    button.style.display = "block";
 });
 
 guns.forEach((gun, i) => {
