@@ -2,8 +2,7 @@ var PAGE_DATA = {
     weapons: [
         {
             name: "Cattleman Revolver",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/cattleman-revolver.jpg",
+            image: "pictures/cattleman-revolver.jpg",
             damage: 42,
             range: 50,
             fire_rate: 75,
@@ -12,8 +11,7 @@ var PAGE_DATA = {
         },
         {
             name: "Double-Action Revolver",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/double-action-revolver.jpg",
+            image: "pictures/double-action-revolver.jpg",
             damage: 38,
             range: 82,
             fire_rate: 50,
@@ -22,8 +20,7 @@ var PAGE_DATA = {
         },
         {
             name: "Volcanic Pistol",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/volcanic-pistol.jpg",
+            image: "pictures/volcanic-pistol.jpg",
             damage: 50,
             range: 30,
             fire_rate: 40,
@@ -32,8 +29,7 @@ var PAGE_DATA = {
         },
         {
             name: "Tomahawk",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/tomahawk.jpg",
+            image: "pictures/tomahawk.jpg",
             damage: 60,
             range: 25,
             fire_rate: 0,
@@ -42,8 +38,7 @@ var PAGE_DATA = {
         },
         {
             name: "Hunting Knife",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/hunting-knife.jpg",
+            image: "pictures/hunting-knife.jpg",
             damage: 50,
             range: 10,
             fire_rate: 0,
@@ -52,8 +47,7 @@ var PAGE_DATA = {
         },
         {
             name: "Bow and Arrows",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/bow-and-arrows.jpg",
+            image: "pictures/bow-and-arrows.jpg",
             damage: 60,
             range: 30,
             fire_rate: 80,
@@ -62,8 +56,7 @@ var PAGE_DATA = {
         },
         {
             name: "Lancaster Repeater",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/lancaster-repeater.jpg",
+            image: "pictures/lancaster-repeater.jpg",
             damage: 55,
             range: 59,
             fire_rate: 76,
@@ -72,8 +65,7 @@ var PAGE_DATA = {
         },
         {
             name: "Springfield Rifle",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/springfield-rifle.jpg",
+            image: "pictures/springfield-rifle.jpg",
             damage: 80,
             range: 30,
             fire_rate: 78,
@@ -82,8 +74,7 @@ var PAGE_DATA = {
         },
         {
             name: "Carcano Rifle",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/carcano-rifle.jpg",
+            image: "pictures/carcano-rifle.jpg",
             damage: 75,
             range: 40,
             fire_rate: 85,
@@ -92,8 +83,7 @@ var PAGE_DATA = {
         },
         {
             name: "Carbine Repeater",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/carbine-repeater.jpg",
+            image: "pictures/carbine-repeater.jpg",
             damage: 60,
             range: 65,
             fire_rate: 53,
@@ -102,8 +92,7 @@ var PAGE_DATA = {
         },
         {
             name: "Pump Action Shotgun",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/pump-action-shotgun.jpg",
+            image: "pictures/pump-action-shotgun.jpg",
             damage: 61,
             range: 35,
             fire_rate: 47,
@@ -112,8 +101,7 @@ var PAGE_DATA = {
         },
         {
             name: "Schofield Revolver",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/schofield-revolver.jpg",
+            image: "pictures/schofield-revolver.jpg",
             damage: 46,
             range: 50,
             fire_rate: 70,
@@ -122,8 +110,7 @@ var PAGE_DATA = {
         },
         {
             name: "Sawed-Off Shotgun",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/sawed-off-shotgun.jpg",
+            image: "pictures/sawed-off-shotgun.jpg",
             damage: 65,
             range: 30,
             fire_rate: 60,
@@ -132,8 +119,7 @@ var PAGE_DATA = {
         },
         {
             name: "Mauser Pistol",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/mauser-pistol.jpg",
+            image: "pictures/mauser-pistol.jpg",
             damage: 36,
             range: 50,
             fire_rate: 80,
@@ -142,8 +128,7 @@ var PAGE_DATA = {
         },
         {
             name: "Semi-Automatic Pistol",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/semi-automatic-pistol.jpg",
+            image: "pictures/semi-automatic-pistol.jpg",
             damage: 33,
             range: 50,
             fire_rate: 85,
@@ -152,8 +137,7 @@ var PAGE_DATA = {
         },
         {
             name: "Double-Barrel Shotgun",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/double-barreled-shotgun.jpg",
+            image: "pictures/double-barreled-shotgun.jpg",
             damage: 65,
             range: 35,
             fire_rate: 60,
@@ -162,8 +146,7 @@ var PAGE_DATA = {
         },
         {
             name: "Semi-Auto Shotgun",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/semi-auto-shotgun.jpg",
+            image: "pictures/semi-auto-shotgun.jpg",
             damage: 57,
             range: 35,
             fire_rate: 55,
@@ -172,8 +155,7 @@ var PAGE_DATA = {
         },
         {
             name: "Wide-Blade Knife",
-            image:
-                "https://www.gtabase.com/images/red-dead-redemption-2/weapons/icon/wide-blade-knife.jpg",
+            image: "pictures/wide-blade-knife.jpg",
             damage: 50,
             range: 10,
             fire_rate: 0,
