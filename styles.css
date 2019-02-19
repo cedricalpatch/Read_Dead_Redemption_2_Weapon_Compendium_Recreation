@@ -12,9 +12,9 @@ body {
     margin: 1rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
     :root {
-        font-size: 10pt;
+        font-size: 9.5pt;
     }
 
     .container {
@@ -22,16 +22,15 @@ body {
     }
 
     :root img {
-        width: 100%;
+        width: 90%;
     }
-
+    .cover_img {
+        height: 10.5rem;
+    }
     #border {
         display: flex;
         flex-direction: column;
         overflow-x: scroll;
-    }
-    .grid-container img {
-        width: 100%;
     }
     .grid-container .pageChanger {
         padding: 0;
@@ -53,6 +52,12 @@ body {
     .information {
         padding-left: 1.5rem;
     }
+    .information p {
+        margin: 0;
+    }
+    :root .bar {
+        margin-top: 0.5rem;
+    }
 }
 
 #border {
@@ -64,7 +69,7 @@ body {
 
 #info {
     font-size: 1.5rem;
-    width: 30rem;
+    width: 100%;
 }
 
 * {
