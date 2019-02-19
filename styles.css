@@ -12,6 +12,37 @@ body {
     margin: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+    :root {
+        font-size: 10pt;
+    }
+
+    :root img {
+        width: 24rem;
+    }
+
+    #border {
+        display: flex;
+        flex-direction: column;
+        overflow-x: scroll;
+    }
+    .grid-container img {
+        width: 8rem;
+    }
+    .grid-container .pageChanger {
+        padding: 0;
+    }
+    :root #info {
+        width: 100%;
+    }
+    .grid-container .page1 {
+        padding: 0;
+    }
+    .grid-container .page2 {
+        padding: 0;
+    }
+}
+
 #border {
     display: flex;
     border-top: 2px solid rgba(160, 160, 160, 0.637);
