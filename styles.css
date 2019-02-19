@@ -1,4 +1,5 @@
 body {
+    font-family: "EB Garamond", serif;
     color: white;
     background-color: black;
 }
@@ -8,7 +9,6 @@ body {
 }
 
 .container {
-    font-family: "EB Garamond", serif;
     margin: 1rem;
 }
 
@@ -47,7 +47,7 @@ body {
     }
 
     .footnote {
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -116,6 +116,7 @@ body {
 }
 button {
     width: 8rem;
+    font-family: "EB Garamond", serif;
 }
 .grid-item {
     font-size: 30px;
