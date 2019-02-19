@@ -49,6 +49,10 @@ body {
     .footnote {
         font-size: 0.7rem;
     }
+
+    .information {
+        padding-left: 1.5rem;
+    }
 }
 
 #border {
