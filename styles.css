@@ -12,13 +12,17 @@ body {
     margin: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
     :root {
         font-size: 10pt;
     }
 
+    .container {
+        margin: 0;
+    }
+
     :root img {
-        width: 24rem;
+        width: 100%;
     }
 
     #border {
@@ -27,7 +31,7 @@ body {
         overflow-x: scroll;
     }
     .grid-container img {
-        width: 8rem;
+        width: 100%;
     }
     .grid-container .pageChanger {
         padding: 0;
@@ -40,6 +44,10 @@ body {
     }
     .grid-container .page2 {
         padding: 0;
+    }
+
+    .footnote {
+        font-size: .7rem;
     }
 }
 
@@ -62,7 +70,7 @@ body {
 .bar {
     margin-top: 2.1rem;
     margin-left: 5rem;
-    width: 200%;
+    width: 150%;
     background-color: rgb(37, 36, 36);
 }
 
