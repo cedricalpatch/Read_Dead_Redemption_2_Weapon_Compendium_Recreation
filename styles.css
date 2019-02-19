@@ -8,11 +8,7 @@ body {
     display: flex;
 }
 
-.container {
-    margin: 1rem;
-}
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     :root {
         font-size: 9.5pt;
     }
@@ -24,8 +20,8 @@ body {
     :root img {
         width: 90%;
     }
-    .cover_img {
-        height: 10.5rem;
+    .cover_img img {
+        height: 10%;
     }
     #border {
         display: flex;
@@ -56,7 +52,7 @@ body {
         margin: 0;
     }
     :root .bar {
-        margin-top: 0.5rem;
+        margin-top: 6%;
     }
 }
 
